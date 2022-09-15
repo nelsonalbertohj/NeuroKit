@@ -109,6 +109,8 @@ def eda_plot(eda_signals, sampling_rate=None):
     )
     ax2.legend(loc="upper right")
 
+    return fig, ax0, ax1, ax2
+
 
 # =============================================================================
 # Internals
